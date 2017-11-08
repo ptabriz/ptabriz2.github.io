@@ -1,0 +1,236 @@
+/* Theme Name: Chela - Documentation */
+
+html {
+  font-size: 16px; }
+
+body {
+  overflow-wrap: normal;
+  word-wrap: normal;
+  word-break: normal;
+  font-family: 'Questrial', monospace;
+  background: #f3f3f3;
+  color: #737373;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 1px;
+  font-size: 0.875em; }
+
+a {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  color: #737373; }
+  a:hover {
+    color: #3498db;
+    text-decoration: none;
+    outline: 0; }
+  a:focus, a:active {
+    color: #737373;
+    text-decoration: none;
+    outline: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  line-height: 1.2; }
+
+iframe {
+  max-width: 100%; }
+
+embed,
+object,
+img {
+  height: auto;
+  max-width: 100%; }
+
+table {
+  border-collapse: collapse; }
+
+th {
+  background: #f1f1f1; }
+
+th, td {
+  text-align: left;
+  padding: 8px 15px; }
+
+.container {
+  max-width: 980px; }
+
+.site {
+  position: relative; }
+
+.site-main {
+  padding: 80px 15px; }
+
+.site-main.content-empty {
+  text-align: center;
+  padding: 80px 0 !important; }
+
+
+
+/* Header/Page */
+.page-header {
+  text-align: center;
+  padding: 10px 0 0;
+}
+
+.page-header h1 {
+  display: inline-block;
+  position: relative;
+  font-size: 64px;
+  color: #333;
+  margin: 0;
+}
+
+.page-header h1 span {
+  position: absolute;
+  top: -10px;
+  right: -65px;
+  font-size: 13px;
+  padding: 3px 8px;
+  border-radius: 1px;
+  color: #fff;
+  background: #222;
+}
+
+.page-header p {
+  font-size: 18px;
+}
+
+.content .item {
+  padding: 25px;
+  position: relative;
+}
+
+.content .item a img {
+  border: 8px solid #fff;
+}
+
+.content .item a .overlay {
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  left: 25px;
+  right: 25px;
+  bottom: 25px;
+  background: #fff;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+  
+.content .item a .overlay span {
+  position: absolute;
+  padding-top: 20px;
+  top: 50%;
+  left: 50%;
+  color: #222;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease 0.3s;
+  -moz-transition: all 0.2s ease 0.3s;
+  transition: all 0.2s ease 0.3s;
+  transform: translate(-50%, -50%);
+}
+
+.content .item a:hover .overlay {
+  opacity: .8;
+}
+
+.content .item a:hover .overlay span {
+  padding: 0;
+  opacity: 1;
+}
+
+/* Header/Site */
+.site-header {
+  padding: 50px 30px 10px;
+  display: block;
+  max-width: 1730px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.site-header .demo-button {
+  display: inline-block;
+}
+
+.site-header .demo-button a {
+  display: inline-block;
+  vertical-align: middle;
+  color: #999;
+  font-size: 16px;
+  box-shadow: 0 0 1px transparent;
+  margin-right: 30px;
+  line-height: 48px;
+}
+
+.site-header .demo-button a:hover {
+  color: #111;
+}
+
+
+/* Sidebar */
+/* Site */
+.main-content {
+  position: relative;
+}
+
+.main-content .sidebar {
+  position: absolute;
+  top: 100px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.main-content .sidebar.sticky {
+  margin-top: 100px;
+  position: fixed;
+}
+
+.main-content .sidebar ul.main-menu {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.main-content .sidebar ul.main-menu li a {
+  border-left: 2px solid transparent;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.main-content .sidebar ul.main-menu li.active a {
+  color: #3498db;
+  border-left: 2px solid #3498db;
+}
+
+.main-content .sidebar ul.main-menu ul.sub-menu {
+  padding: 8px 0 16px 45px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.main-content .sidebar ul.main-menu ul.sub-menu li a {
+  font-size: 14px;
+  padding-left: 0;
+}
+
+.main-content .sidebar ul.main-menu ul.sub-menu li.active a {
+  color: #3498db;
+  border-left: 2px solid transparent;
+}
+
+.main-content .content {
+  padding-top: 100px;
+}
+
+.main-content .content .section {
+  padding-bottom: 40px;
+}
+
+.main-content .content .section:last-child {
+  padding-bottom: 150px;
+}
